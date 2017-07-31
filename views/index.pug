@@ -1,5 +1,19 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Dev Colors
+  p Get colored images to placehold in your development code
+  pre.code.
+    // style.css
+
+    { 
+      ...
+      background-image: url("https://devpic.com/height/width(optional)/color(optional)") 
+    }
+  pre.code.
+    // get a green colored picture with 500x300
+
+    { 
+      ...
+      background-image: url("https://devpic.com/500/300/green") 
+    }
