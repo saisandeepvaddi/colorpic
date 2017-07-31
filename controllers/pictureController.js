@@ -37,6 +37,7 @@ exports.getColorPicture = async (req, res, next) => {
   const pic = await getResizedPicture(height, width);
   const addColor = promisify(pic.color, pic);
   const color = getValidatedColor(userColor);
+
   await addColor([{ apply: "mix", params: [color, 100] }]);
   const buffer = await getPicBuffer(pic);
 
