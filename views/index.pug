@@ -1,19 +1,15 @@
 extends layout
 
 block content
-  h1 Dev Colors
-  p Get colored images to placehold in your development code
+  h1 Colorpic
+  p Get colored images as placeholders in your development code
+  - var html = `<img src="https://colorpic.herokuapp.com/500/300/green" alt="Green Pic">`
   pre.code.
-    // style.css
+     #{html}
 
-    { 
-      ...
-      background-image: url("https://devpic.com/height/width(optional)/color(optional)") 
-    }
   pre.code.
-    // get a green colored picture with 500x300
-
-    { 
-      ...
-      background-image: url("https://devpic.com/500/300/green") 
+    .bluish {
+      height: 500px;
+      width: 350px;
+      background-image: url(https://colorpic.herokuapp.com/458D96);
     }

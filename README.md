@@ -2,33 +2,33 @@
 
 Serves png images to use in placeholders in web development projects
 
-## Note: 
+## Demo: 
 
-URL for functioning site will be updated once deployed to cloud
+Demo deployed [here](https://colorpic.herokuapp.com)
 
 # Usage
 
  - Get image with Height x Width Pixels default color (gray)
 
     ```  
-      http://localhost:3000/500/300
+      https://colorpic.herokuapp.com/500/300
     ```
  - Get square image with default color (gray)
 
     ```
-      http://localhost:3000/500
+      https://colorpic.herokuapp.com/500
     ``` 
 
   - Get image with color name (must give both height and width in pixels)
 
     ```
-      http://localhost:3000/500/300/green
+      https://colorpic.herokuapp.com/500/300/green
     ```
   
   - Get image with color hex without __#__ (must give both height and width in pixels)
 
     ```
-      http://localhost:3000/500/300/00c78c
+      https://colorpic.herokuapp.com/500/300/00c78c
     ```
 
 # Use Case Examples
@@ -36,7 +36,7 @@ URL for functioning site will be updated once deployed to cloud
   - Use as src in ```<img>``` tag
 
     ```html
-    <img src="http://localhost:3000/300/300/green" alt="Green Pic">
+    <img src="https://colorpic.herokuapp.com/300/300/green" alt="Green Pic">
     ```
 
   - Use as url in css ```background-image: url()```
@@ -45,7 +45,7 @@ URL for functioning site will be updated once deployed to cloud
       .bluish {
         height: 500px;
         width: 350px;
-        background-image: url(http://localhost:3000/500/350/458D96);
+        background-image: url(https://colorpic.herokuapp.com/500/350/458D96);
       }
     ```
   - Pretty much where you need an image
