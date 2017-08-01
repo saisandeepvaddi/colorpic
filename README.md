@@ -31,11 +31,11 @@ URL for functioning site will be updated once deployed to cloud
       http://localhost:3000/500/300/00c78c
     ```
 
-# Usecase Example
+# Use Case Examples
 
   - Use as src in ```<img>``` tag
 
-    ```
+    ```html
     <img src="http://localhost:3000/300/300/green" alt="Green Pic">
     ```
 
@@ -50,7 +50,7 @@ URL for functioning site will be updated once deployed to cloud
     ```
   - Pretty much where you need an image
   - Go crazy with colors
-  
+
 # Development
 
 - Install dependencies
