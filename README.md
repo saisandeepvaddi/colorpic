@@ -31,8 +31,26 @@ URL for functioning site will be updated once deployed to cloud
       http://localhost:3000/500/300/00c78c
     ```
 
+# Usecase Example
 
+  - Use as src in ```<img>``` tag
 
+    ```
+    <img src="http://localhost:3000/300/300/green" alt="Green Pic">
+    ```
+
+  - Use as url in css ```background-image: url()```
+
+    ```css
+      .bluish {
+        height: 500px;
+        width: 350px;
+        background-image: url(http://localhost:3000/500/350/458D96);
+      }
+    ```
+  - Pretty much where you need an image
+  - Go crazy with colors
+  
 # Development
 
 - Install dependencies
