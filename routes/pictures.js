@@ -5,7 +5,7 @@ const handlers = require("../handlers/index");
 
 /* GET home page. */
 router.get("/", (req, res, next) => {
-  res.render("index", { title: "picserver" });
+  res.render("index", { title: "ColorPic" });
 });
 router.get(
   "/:height/:width",
