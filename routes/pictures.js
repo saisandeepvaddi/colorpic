@@ -9,17 +9,17 @@ router.get("/", (req, res, next) => {
 });
 router.get(
   "/:height/:width",
-  handlers.catchErrors(pictureController.getDefaultPicture)
+  handlers.catchErrors(pictureController.getPicture)
 );
 
 router.get(
   "/:height",
-  handlers.catchErrors(pictureController.getDefaultPicture)
+  handlers.catchErrors(pictureController.getPicture)
 );
 
 router.get(
   "/:height/:width/:color",
-  handlers.catchErrors(pictureController.getColorPicture)
+  handlers.catchErrors(pictureController.getPicture)
 );
 
 module.exports = router;

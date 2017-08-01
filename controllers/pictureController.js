@@ -18,21 +18,15 @@ const getValidatedColor = color => {
   if (coloredPic.isValid()) {
     return coloredPic;
   }
-  return tinycolor("#d1d1d1");
+  // console.log("Color: ", color);
+
+  return tinycolor("d1d1d1");
 };
 
-exports.getDefaultPicture = async (req, res, next) => {
+exports.getPicture = async (req, res, next) => {
   const height = Number(req.params.height) || 250;
   const width = Number(req.params.width) || height;
-  const pic = await getResizedPicture(height, width);
-  const buffer = await getPicBuffer(pic);
-  res.type("png").send(buffer);
-};
-
-exports.getColorPicture = async (req, res, next) => {
-  const height = Number(req.params.height) || 250;
-  const width = Number(req.params.width) || height;
-  const userColor = req.params.color;
+  const userColor = req.params.color || undefined;
 
   const pic = await getResizedPicture(height, width);
   const addColor = promisify(pic.color, pic);
