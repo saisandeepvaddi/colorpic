@@ -6,7 +6,7 @@ Serves png images to use in placeholders in web development projects
 
 Demo deployed [here](https://colorpic.herokuapp.com)
 
-**NOTE:** It is deployed in heroku's free dyno. Hence, it will go after 30 minutes of inactivity. So if you are seeing the spinner loading after launch, it means the app is starting and will take a minute.
+**NOTE:** It is deployed in heroku's free dyno. Hence, it will go off after 30 minutes of inactivity. So if you are seeing the spinner loading after launch, it means the app is starting and will take a minute.
 
 # Usage
 
