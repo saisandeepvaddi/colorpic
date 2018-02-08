@@ -1,15 +1,19 @@
 extends layout
 
 block content
-  h1 ColorPic
-  p Get colored images as placeholders in your development code
-  - var html = `<img src="https://colorpic.herokuapp.com/500/300/green" alt="Green Pic">`
+  h1.title ColorPic
+  p.description Get colored images as placeholders in your development code
+  - var html = `<img src="https://colorpic.now.sh/500/300/green" alt="Green Pic">`
   pre.code.
      #{html}
 
   pre.code.
     .bluish {
-      height: 500px;
-      width: 350px;
-      background-image: url(https://colorpic.herokuapp.com/500/350/458D96);
+      height: 200px;
+      width: 200px;
+      background-image: url(https://colorpic.now.sh/200/200/458D96);
     }
+
+
+  div.bluish
+

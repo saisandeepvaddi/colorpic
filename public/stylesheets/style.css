@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+
 a {
   color: #00b7ff;
 }
@@ -19,9 +20,25 @@ a {
   align-items: center;
 }
 
+.title {
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.description {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-weight: 800;
+}
+
 .code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   padding: 20px;
+}
+
+.bluish {
+  height: 200px;
+  width: 200px;
+  background-image: url(https://colorpic.now.sh/200/200/458D96);
 }
