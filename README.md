@@ -6,8 +6,6 @@ Serves png images to use in placeholders in web development projects
 
 Demo deployed [here](https://colorpic.now.sh)
 
-**NOTE:** It is deployed in heroku's free dyno. Hence, it will go off after 30 minutes of inactivity. So if you are seeing the spinner loading after launch, it means the app is starting and will take a minute.
-
 # Usage
 
  - Get image with Height x Width Pixels default color (gray)
