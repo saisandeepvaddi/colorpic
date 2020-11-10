@@ -6,7 +6,6 @@ body {
   margin: 0;
 }
 
-
 a {
   color: #00b7ff;
 }
@@ -22,11 +21,11 @@ a {
 
 .title {
   font-family: sans-serif;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 .description {
-  font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-family: "Courier New", Courier, monospace, sans-serif;
   font-weight: 800;
 }
 
